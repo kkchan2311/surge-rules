@@ -1,0 +1,30 @@
+# Douyin Ad Ruleset for Surge
+# Last Updated: 2026-02-17
+
+# 抖音开屏广告及信息流广告相关域名
+DOMAIN-SUFFIX, ad.toutiao.com, REJECT
+DOMAIN-SUFFIX, ad.bytedance.com, REJECT
+DOMAIN-SUFFIX, pangolin-sdk-toutiao.com, REJECT
+DOMAIN-SUFFIX, pangolin.snssdk.com, REJECT
+DOMAIN-SUFFIX, ad-api.snssdk.com, REJECT
+DOMAIN-SUFFIX, sf-ad.ixigua.com, REJECT
+DOMAIN-SUFFIX, pangle.io, REJECT
+
+# 抖音广告相关的其他域名
+DOMAIN-KEYWORD, -ad-,-ads-, REJECT
+DOMAIN-KEYWORD, adservice, REJECT
+DOMAIN-KEYWORD, openad, REJECT
+
+# 针对特定广告请求的URL路径规则 (需要开启MITM)
+URL-REGEX, ^https?:\/\/.+\.snssdk\.com\/video\/feed\/, REJECT
+URL-REGEX, ^https?:\/\/.+\.amemv\.com\/aweme\/v\d\/feed\/, REJECT
+URL-REGEX, ^https?:\/\/aweme\.snssdk\.com\/aweme\/v1\/splash\/, REJECT
+
+# 抖音数据分析与跟踪
+DOMAIN-SUFFIX, app-log.snssdk.com, REJECT
+DOMAIN-SUFFIX, log.snssdk.com, REJECT
+DOMAIN-SUFFIX, umeng.com, REJECT
+DOMAIN-SUFFIX, umeng.co, REJECT
+
+# END
+
