@@ -1,0 +1,61 @@
+# Surge Rule-set: Global Proxy Services (International Boost)
+# 作用：利用香港阿里云优质的国际出口，加速全球社交、视频及开发资源
+# 建议策略：Global_Boost (即指向您的阿里云节点)
+
+# --- 社交媒体 (Social Media) ---
+# 包含你之前提供的名单，利用阿里云香港加速图片和视频加载
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
+# --- 视频流媒体 (International Streaming) ---
+# 注意：通过香港阿里云访问 Netflix/Disney+ 会看到港区内容
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
+
+# --- 开发与技术资源 (Developer Tools) ---
+# 香港阿里云连接 GitHub 极其稳定
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,pypi.org
+
+# --- 协作与办公 (Collaboration) ---
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,trello.com
+
+# --- 综合资讯与维基 ---
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,quora.com
+DOMAIN-SUFFIX,nytimes.com
+
+# END
