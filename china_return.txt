@@ -1,0 +1,90 @@
+# Surge Rule-set: China Return Optimization (For Malaysia Users)
+# 作用：通过香港阿里云中转，加速中国本土服务，解决转圈问题
+
+# --- 中国国家顶级域名 ---
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,com.cn
+DOMAIN-SUFFIX,net.cn
+DOMAIN-SUFFIX,org.cn
+
+# --- 字节跳动 (核心：解决抖音转圈) ---
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,v1-dy.snssdk.com
+
+# --- 腾讯 (微信、QQ、腾讯视频) ---
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,tencentmusic.com
+
+# --- 阿里巴巴 (淘宝、天猫、支付宝) ---
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,tbcache.com
+
+# --- 百度 ---
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN-SUFFIX,bdimg.com
+
+# --- 视频与音乐 (B站、爱奇艺、网易云) ---
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.net
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,kugou.com
+
+# --- 生活与购物 (小红书、拼多多、京东、美团) ---
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhsamoeba.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,zhimg.com
+
+# --- 手机厂商与推送 (华为、小米、OPPO) ---
+DOMAIN-SUFFIX,huawei.com
+DOMAIN-SUFFIX,dbankcloud.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,oppo.com
+DOMAIN-SUFFIX,vivo.com
+
+# --- 其他中国常用服务 ---
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,cctv.com
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,iqilab.com
