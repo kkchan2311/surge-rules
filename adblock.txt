@@ -1,0 +1,58 @@
+# Surge Rule-set: Ad-Block & Tracking
+# 这是一个纯规则列表，建议在主配置中指向 REJECT 策略
+
+# --- 全球通用广告与追踪 (Global Ads & Trackers) ---
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,analytics.google.com
+DOMAIN-SUFFIX,ads.youtube.com
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,adnxs.com
+
+# --- 字节跳动 (针对你刷抖音的广告优化) ---
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,ad.zykj.com
+DOMAIN-SUFFIX,analytics.snssdk.com
+DOMAIN-SUFFIX,log.snssdk.com
+DOMAIN-SUFFIX,mssdk.volces.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pglstatp.co
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-KEYWORD,ad-sign.byteimg.com
+
+# --- 腾讯 (微信/腾讯视频广告) ---
+DOMAIN-SUFFIX,ad.qq.com
+DOMAIN-SUFFIX,ad.tencent.com
+DOMAIN-SUFFIX,adping.qq.com
+DOMAIN-SUFFIX,adv.app.qq.com
+DOMAIN-SUFFIX,btrace.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,pgdt.gtimg.cn
+
+# --- 百度与阿里广告 ---
+DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,wn.pos.baidu.com
+DOMAIN-SUFFIX,adashbc.ut.alibaba.com
+DOMAIN-SUFFIX,adash-as.ut.alibaba.com
+DOMAIN-SUFFIX,amdc.m.taobao.com
+
+# --- 移动设备追踪与分析 (Analytics) ---
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,scorecardresearch.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,app-measurement.com
+
+# --- 常见关键词拦截 ---
+DOMAIN-KEYWORD,adsystem
+DOMAIN-KEYWORD,adstrategy
+DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,tracklog
+DOMAIN-KEYWORD,analysis-sdk
+
+# END
