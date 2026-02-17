@@ -1,0 +1,40 @@
+# Surge Rule-set: LAN & Local Discovery
+# 这是一个纯规则列表，建议在主配置中指向 DIRECT 策略
+
+# --- 本地回环与局域网域名 (Local Domains) ---
+DOMAIN,localhost
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,home.arpa
+DOMAIN-SUFFIX,node
+DOMAIN-SUFFIX,surge.local
+
+# --- 常见路由器管理地址 (Router Admin) ---
+DOMAIN,router.asus.com
+DOMAIN,miwifi.com
+DOMAIN,tplinkwifi.net
+DOMAIN,tplinkrepeater.net
+DOMAIN,tplinkap.net
+DOMAIN,tendawifi.com
+DOMAIN,pbebank.com.setup
+DOMAIN,unifi.local
+
+# --- Apple 本地发现与服务 (Apple Local) ---
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# --- IPv4 私有地址段 (Private IP Ranges) ---
+IP-CIDR,10.0.0.0/8
+IP-CIDR,100.64.0.0/10
+IP-CIDR,127.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,192.168.0.0/16
+
+# --- IPv6 私有地址段 (IPv6 Private Ranges) ---
+IP-CIDR6,fc00::/7
+IP-CIDR6,fe80::/10
+IP-CIDR6,::1/128
+
+#END
